@@ -16,6 +16,7 @@ public class Main {
         Scanner scaner = new Scanner(System.in);
         String operatii = scaner.next().toUpperCase();
 
+
         if (Operatii.ADUNARE.toString().equals(operatii)){
             System.out.println(calculator.adunare());
         } else if (Operatii.SCADERE.toString().equals(operatii)){
