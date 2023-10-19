@@ -8,6 +8,7 @@ public class Calculator {
         this.termenUnu = termenUnu;
         this.termenDoi = termenDoi;
     }
+
     public Calculator() {
     }
 
@@ -26,7 +27,12 @@ public class Calculator {
     public void setTermenDoi(float termenDoi) {
         this.termenDoi = termenDoi;
     }
-    public float adunare (){
+
+    public float adunare() {
         return termenUnu + termenDoi;
+    }
+
+    public float scadere () {
+        return termenUnu - termenDoi;
     }
 }
